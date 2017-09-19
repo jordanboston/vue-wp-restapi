@@ -1,5 +1,11 @@
 <template>
-  <post-list></post-list>
+  <div class="container" id="posts">
+    <div class="jumbotron" style="margin-top: 10px">
+      <div id="app">
+				<post-list></post-list>
+    	</div>
+    </div>
+  </div>
 </template>
 
 <script>
