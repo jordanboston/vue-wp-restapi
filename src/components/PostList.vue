@@ -19,7 +19,7 @@ export default {
     }
   },
   created: function() {
-    var baseUrl = "http://shootandshare.com";
+    var baseUrl = "http://yourWordPressUrl.com";
 
     // (in main.js)  Vue.prototype.$http = axios;
     // (use)  this.$http.get   (instead of)  this.axios.get
