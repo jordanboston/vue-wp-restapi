@@ -8,7 +8,7 @@
     <div class="col-md-7">
       <transition name="bounce">
         <div v-if="show">
-          <div class="post-content" v-html="post.content.rendered"></div class="post-content">
+          <div class="post-content" v-html="post.content.rendered"></div>
         </div>
       </transition>
     </div>
